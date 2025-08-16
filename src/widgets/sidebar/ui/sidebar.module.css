@@ -1,0 +1,46 @@
+.navbar {
+  width: 250px;
+  height: 100vh;
+  background: #2c3e50;
+  padding: 20px 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  margin-bottom: 10px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  color: #ecf0f1;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.link:hover {
+  background: #34495e;
+}
+
+.active {
+  background: #3498db;
+  border-left: 4px solid #e74c3c;
+}
+
+.icon {
+  margin-right: 12px;
+  font-size: 20px;
+}
+
+.label {
+  font-size: 16px;
+}
